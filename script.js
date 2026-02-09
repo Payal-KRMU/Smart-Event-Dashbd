@@ -41,3 +41,10 @@ function addSample() {
   descInput.value = "College fest event";
   addEvent();
 }
+
+// Event Delegation
+eventsDiv.addEventListener("click", function(e) {
+  if (e.target.classList.contains("delete")) {
+    e.target.parentElement.remove();
+  }
+});
