@@ -27,3 +27,17 @@ function addEvent() {
   eventsDiv.appendChild(div);
   clearForm();
 }
+
+function clearForm() {
+  titleInput.value = "";
+  dateInput.value = "";
+  descInput.value = "";
+}
+
+function addSample() {
+  titleInput.value = "Emifest";
+  dateInput.value = "2026-01-14";
+  categoryInput.value = "Social";
+  descInput.value = "College fest event";
+  addEvent();
+}
