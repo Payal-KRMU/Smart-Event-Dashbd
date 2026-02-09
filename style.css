@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  background: linear-gradient(120deg, #4f1173, #261596);
 }
 
 .main-title {
@@ -40,7 +40,7 @@ input, textarea, select {
 
 
 button {
-  background: linear-gradient(135deg, #6f7bf7, #8e44ad);
+  background: linear-gradient(135deg, #0b115e, #c32852);
   color: white;
   padding: 10px 16px;
   border: none;
@@ -90,10 +90,4 @@ button:hover {
   padding: 0 20px;
   font-size: 14px;
   border-radius: 10px;
-}
-
-#addBtn {
-  width: 140px;
-  height: 42px;
-  margin-top: 20px;
 }
